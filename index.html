@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+	  
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	  
+	  
+	  <link href="style.css" rel="stylesheet">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	  <script type="text/javascript">
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+      $('.parallax').parallax();
+	  $(".button").click(function(){
+	  $("#divid").finish().fadeToggle(500);
+	  
+	  });
+		$(".home").click(function(){
+			$('html, body').animate({scrollTop: $('#navig').offset().top}, 'slow');
+		});
+		
+		$(".mypro").click(function(){
+			$('html, body').animate({scrollTop: $('#image_sec').offset().top}, 'slow');
+		});
+		
+		$(".learning").click(function(){
+			$('html, body').animate({scrollTop: $('#heading').offset().top-70}, 'slow');
+		});
+		$('.parallax').parallax();
+		$(".button-collapse").sideNav();
+
+    });
+	  </script>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      
+	 <div class="navbar-fixed" id="navig">
+		<nav class="n">
+			<div class="nav-wrapper">
+			 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Side Me</i></a>
+			<ul id="navigation" class="right hide-on-med-and-down">
+				<li class="home"><a href="#">About Me</a></li>
+				<li class="mypro"><a href="#">My Projects</a></li>
+				<li class="learning"><a href="#">Learning</a></li>
+			</ul>
+			<ul id="mobile-demo" class="side-nav">
+				<li class="home"><a href="#">About Me</a></li>
+				<li class="mypro"><a href="#">My Projects</a></li>
+				<li class="learning"><a href="#">Learning</a></li>
+			</ul>
+			</div>
+		</nav>
+	</div>
+		<div id="id1">
+		<div class="thumb">
+          <img src="images/img2.jpg" style="width:150px;height:150px;border-radius:100%;">
+		</div>
+		  
+			  
+		
+		<div id="aboutme" style="height:150px;">
+		
+			<h4>Anmol Agarwal</h4></h4>
+			<h6>I&nbsp;&nbspa m&nbsp;&nbsp;a&nbsp;&nbspw e b&nbsp;&nbspd e s i g n e r&nbsp;&nbsp,&nbsp;&nbspL e a r n e r&nbsp;&nbspo f&nbsp;&nbspe v e r y t h i n g.</h6>
+		</div> 
+		</div>
+		<div id="intro">
+			<p>I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a m &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 r d &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y e a r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s t u d e n t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p u r s u i n g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B a c h e l o r s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O f&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T e c h n o l o g y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C o m p u t e r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S c i e n c e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>f r o m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S R M G P C&nbsp;&nbsp;.&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c o d e r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a n d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l o v e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c o d e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t h e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p r o b l e m s&nbsp;.&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w e b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>d e v e l o p e r&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a n d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u s e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f o l l o w i n g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t e c h n o l o g i e s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i t .</p>
+			<p><center><u>H T M L</u>&nbsp;|&nbsp; <u>C S S 3</u>&nbsp;|&nbsp; <u>J A V A S C R  I P T</u>&nbsp;|&nbsp; <u>J Q U E R Y</u>&nbsp;|&nbsp; <u>P H P</u>&nbsp;|&nbsp; <u>A J A X</u></center></p>
+		</div>
+		<div id="followup">
+		<div class="button"><a class="waves-effect waves-light btn">Follow</a></div>	
+
+			<div id="divid" style="display:none;margin-bottom:0px;">
+				<a href="#" style="color:#3b5998;"><i class="fa fa-facebook fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#" style="color:#125668;"><i class="fa fa-instagram fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#" style="color:#55acee;"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;&nbsp;&nbsp;
+			</div>
+		</div>
+		
+		<div id="image_sec" class="section scrollspy">
+			<div class="parallax-container">
+				<div class="parallax">
+					<img src="images/back1.jpg" style="width:100%;">
+				</div><br><br>
+				<div id="project_info" style="color:white;">
+					<h5>H e r e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a r e&nbsp;&nbsp;&nbsp;&nbsp;t h e&nbsp;&nbsp;&nbsp;&nbsp; l i s t &nbsp;&nbsp;&nbsp;&nbsp;o f&nbsp;&nbsp;&nbsp;&nbsp; s o m e &nbsp;&nbsp;&nbsp;&nbsp;p r o j e c t s &nbsp;&nbsp;&nbsp;&nbsp; t h a t &nbsp;&nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp;&nbsp; h a v e &nbsp;&nbsp;&nbsp;m a d e .</h5>
+					<br><br>
+					<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.E m p l o y e e&nbsp;&nbsp;&nbsp;M a n a g e m e n t &nbsp;&nbsp;&nbsp;P o r t a l</h6>
+					
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;&nbsp; is&nbsp;&nbsp; the&nbsp;&nbsp; PHP&nbsp;&nbsp; based&nbsp;&nbsp; portal&nbsp;&nbsp; where&nbsp;&nbsp; an&nbsp;&nbsp; employee&nbsp;&nbsp; details&nbsp;&nbsp; and&nbsp;&nbsp; schedules&nbsp;&nbsp; are&nbsp;&nbsp; stored.</p>
+				</div>
+			</div>
+			<div id="heading">
+			<h3>&nbsp;&nbsp;&nbsp;&nbsp;L e a r n i n g&nbsp;&nbsp;<i class="fa fa-quote-left"></i></h3></div>
+			<div id="learning" style="margin-left:80px;">
+				
+				<br>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;1.A L G O R I T H M S</h6>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Here&nbsp;&nbsp;&nbsp; are&nbsp;&nbsp;&nbsp; some&nbsp;&nbsp;&nbsp; algorithms&nbsp;&nbsp;&nbsp; which&nbsp;&nbsp;&nbsp; are&nbsp;&nbsp;&nbsp; useful&nbsp;&nbsp;&nbsp; for&nbsp;&nbsp;&nbsp; competitive&nbsp;&nbsp;&nbsp; programming.</p>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/" target="_blank">1.Sieve of Eratosthenes.</a></h6>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/" target="_blank">2.Euclid GCD Algorithm.</a></h6>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/" target="_blank">3.Longest Common Subsequence.</a></h6>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://codeforces.com/blog/entry/15729" target="_blank">4.Tree</a></h6>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.topcoder.com/community/data-science/data-science-tutorials/sorting/" target="_blank">5.Sorting</a></h6>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/" target="_blank">6.Base Conversion.</a></h6>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.topcoder.com/community/data-science/data-science-tutorials/" target="_blank">(more....)</a></h6>
+				<br>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;2.WEB DEVELOPMENT</h6>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;You need to be good both at front-end and back-end development.</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;So You can start learning here--><a href="http://www.w3schools.com/">W3SCHOOLS</a></p>
+			</div><br><br>
+			<div class="parallax-container">
+				<div class="parallax">
+					<img src="images/code.jpg" style="width:100%;">
+				</div>
+				<div id="final">
+					<br><br><center><h3>W a n t&nbsp;&nbsp;&nbsp; t o&nbsp;&nbsp;&nbsp; b e c o m e&nbsp;&nbsp;&nbsp; t h e&nbsp;&nbsp;&nbsp; C o d e&nbsp;&nbsp;&nbsp; M a s t e r ?</h3></center>
+					<br>
+					<center><h3>S t a r t&nbsp;&nbsp;&nbsp;L e a r i n g&nbsp;&nbsp;&nbsp;T o d a y</h3></center>
+					<center><i class="fa fa-laptop fa-5x"></i></center>
+				</div>
+			</div>
+			<div id="footer">
+			<center style="float:center;"><b>Created by Anmol Agarwal.</b></center>
+		</div>
+		</div>
+
+    </body>
+  </html>
