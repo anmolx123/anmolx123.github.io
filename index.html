@@ -15,30 +15,7 @@
 	  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-	  <script type="text/javascript">
-		$(document).ready(function(){
-			$(".button-collapse").sideNav();
-      $('.parallax').parallax();
-	  $(".button").click(function(){
-	  $("#divid").finish().fadeToggle(500);
 	  
-	  });
-		$(".home").click(function(){
-			$('html, body').animate({scrollTop: $('#navig').offset().top}, 'slow');
-		});
-		
-		$(".mypro").click(function(){
-			$('html, body').animate({scrollTop: $('#image_sec').offset().top}, 'slow');
-		});
-		
-		$(".learning").click(function(){
-			$('html, body').animate({scrollTop: $('#heading').offset().top-70}, 'slow');
-		});
-		$('.parallax').parallax();
-		$(".button-collapse").sideNav();
-
-    });
-	  </script>
     </head>
 
     <body>
@@ -70,7 +47,7 @@
 		
 		<div id="aboutme" style="height:150px;">
 		
-			<h4>Anmol Agarwal</h4></h4>
+			<h4 style="color:black;">Anmol Agarwal</h4></h4>
 			<h6>I&nbsp;&nbspa m&nbsp;&nbsp;a&nbsp;&nbspw e b&nbsp;&nbspd e s i g n e r&nbsp;&nbsp,&nbsp;&nbspL e a r n e r&nbsp;&nbspo f&nbsp;&nbspe v e r y t h i n g.</h6>
 		</div> 
 		</div>
@@ -122,12 +99,12 @@
 			</div><br><br>
 			<div class="parallax-container">
 				<div class="parallax">
-					<img src="images/code.jpg" style="width:100%;">
+					<img src="images/code.jpg" style="width:100%;-webkit-filter:blur(4px);">
 				</div>
 				<div id="final">
-					<br><br><center><h3>W a n t&nbsp;&nbsp;&nbsp; t o&nbsp;&nbsp;&nbsp; b e c o m e&nbsp;&nbsp;&nbsp; t h e&nbsp;&nbsp;&nbsp; C o d e&nbsp;&nbsp;&nbsp; M a s t e r ?</h3></center>
+					<br><br><center><h4>W a n t&nbsp;&nbsp;&nbsp; t o&nbsp;&nbsp;&nbsp; b e c o m e&nbsp;&nbsp;&nbsp; t h e&nbsp;&nbsp;&nbsp; C o d e&nbsp;&nbsp;&nbsp; M a s t e r ?</h4></center>
 					<br>
-					<center><h3>S t a r t&nbsp;&nbsp;&nbsp;L e a r i n g&nbsp;&nbsp;&nbsp;T o d a y</h3></center>
+					<center><h4>S t a r t&nbsp;&nbsp;&nbsp;L e a r i n g&nbsp;&nbsp;&nbsp;T o d a y</h4></center>
 					<center><i class="fa fa-laptop fa-5x"></i></center>
 				</div>
 			</div>
@@ -136,5 +113,30 @@
 		</div>
 		</div>
 
-    </body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+      $('.parallax').parallax();
+	  $(".button").click(function(){
+	  $("#divid").finish().fadeToggle(500);
+	  
+	  });
+		$(".home").click(function(){
+			$('html, body').animate({scrollTop: $('#navig').offset().top}, 'slow');
+		});
+		
+		$(".mypro").click(function(){
+			$('body').animate({scrollTop: $('#image_sec').offset().top}, 'slow');
+		});
+		
+		$(".learning").click(function(){
+			$('html, body').animate({scrollTop: $('#heading').offset().top-70}, 'slow');
+		});
+		$('.parallax').parallax();
+		$(".button-collapse").sideNav();
+
+    });
+	
+	  </script>
+	   </body>
   </html>
