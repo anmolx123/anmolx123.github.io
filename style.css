@@ -9,9 +9,7 @@ body{
 .thumb{
 	margin-left:600px;
 	margin-top:10px;
-	width:150px;
-	height:150px;
-	border-radius:100%;
+	
 }
 
 #navigation{
@@ -63,12 +61,13 @@ body{
 }
 
 .button{
-	margin-top:-18px;
+	margin-top:-28px;
 	float:left;
 }
 #divid{
-	margin-top:-18px;
+	margin-top:-28px;
 	float:right;
+	padding-right:15px;
 }
 .button a{
 	color:white;
